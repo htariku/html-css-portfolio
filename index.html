@@ -1,74 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Helen's Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <h1 class="my-name">Helen Tariku</h1>
-        <ul>
-          <li href="#about-me">About Me</li>
-          <li href="#my-work">My Work</li>
-          <li href="#contact-me">Contact Me</li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      
-        <article 
-        class="about-me">
-          <img src="./assets/images/me.jpeg" alt="A picture of me in my backyard"/>
-          <div id="about-me">
-          <h2>
-            About Me 
-          </h2>
-          <p>
-            My Name is Helen Tariku, I am 23 years old and a recent grad from Virginia Commonwelath University. I am currently working at Virginia Hospital Center as a certified Medical Labratory Technologist in their Microbiolog, Hematology, and Chemistry department. I basically analyze and run tests for various specimens and body fluids to see if there are any abnormalitie. Alongside that, I also run covid PCR testing with te newly emerged and ongoing pandemic taking place right now. 
-            <br/>
-            During my time as a Lab tech I have found a great intrest in instrumentation and grew more curious of the roles that our enigenears and information technologists played. I have enrolled in George Washington Coding Bootcamp to expand my learning, espicially as the world of technology is constantly growing (even in healthcare). With my new found skill I hope to contrubute my creativity and ideas to the feild and craft my skills overtime. 
-          </p>
+    <!-- navigation -->
+<header>
+    <h1>
+        <a>Helen Tariku</a>
+        </h1>
+    <nav>
+        <!-- Unordered list element -->
+    <ul>
+    <!-- List item element-->
+    <li>
+      <!-- Anchor element -->
+      <a href="#about-me">About Me</a>
+    </li>
+    <li>
+      <a href="#my-work">My work</a>
+    </li>
+    <li>
+      <a href="#contact-me">Contact Me</a>
+    </li>
+  </ul>
+    </nav>
+  </header>
+  
+  <section id="about-me" class="about-me">
+    <div class= "about-me-cta">
+        <h2> About Me</h2>
+            <p> My Name is Helen Tariku, I am 23 years old and a recent grad from Virginia Commonwealth University. I am currently working at Virginia Hospital Center as a certified Medical Laboratory Technologist in their Microbiology, Hematology, and Chemistry department. I basically analyze and run tests for various specimens and body fluids to see if there are any abnormalities. Alongside that, I also run Covid PCR testing with the newly emerged and ongoing pandemic taking place right now. 
+              <br/>
+              During my time as a Medical technologist, I have found a great interest in instrumentation and grew more curious of the roles that our engineers and information technologists play. I have enrolled in George Washington Coding Bootcamp to expand my learning, especially as the world of technology is constantly growing (even in healthcare). With my new found skill I hope to contribute my creativity and ideas to the field and craft my skills overtime. </p>
         </div>
-        </article>
-
-        <div id="my-work">
-          <h2> 
-            My Work 
-          </h2>
-          <p>
-            Run-Buddy 
-            https://htariku.github.io/run-buddy/
-          </p>
-        </div>
-
-        <div id="contact-me" class="contact-me">
-          <h2> 
-            Contact Me 
-          </h2>
-          <p>Fill out this form and one to Reach Me</p>
-    <form>
+<div class="about-me-form">
+    <h3>Reach Me</h3>
+    <p>Fill out this form to to get in touch</p>
+ 
+  <form>
     <label for="name">Enter full name:</label>
     <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
     <label for="email">Enter email address:</label>
     <input type="text" placeholder="Email Address" name="email" id="email" class="form-input">
     <label for="phone">Enter a telephone number:</label>
     <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+
+      <button type="submit">
+        Submit!
+      </button>
+  </form>
+</div>
+  </section>
+
+  <section>
+  </section>
   
-    <footer>
-      <h2>
-       Contact Information
-      </h2>
-        <ul>
-          <li>Email: hgtariku@yahoo.com </li>
-          <li>Phone: 571-306-9151</li>
-        </ul>
-    </footer>
-        </div>
-    </main>
+ 
+<section id="my-work" class="intro">
+<div class="flex-row">
+    <h2 class="section-title primary-border">My Work</h2>
+    ...
+</div>
+<div class="flex-row">
+    <p>
+      Run-Buddy 
+    </br>
+      https://htariku.github.io/run-buddy/
+    </p>
+</div>
+  </section>
+  
+
+  <section id="contact-me">
+    <h2 class="section-title secondary-border">Contact Me</h2>
+
+  <!-- "reach out" section -->
+  <section id="reach-out" class="contact">
+    <h2 class="section-title secondary-border">Reach Out</h2>
+        <div class="contact-info">
+            <div>
+            <h3>Helen Tariku</h3>
+            <p>
+                 Any questions or concerns?
+                <br />
+                 Let me know and and Ill be happy to talk to you!
+        </p>
+        <address>
+            7914 Gunston Woods Pl <br/>
+            Lorton, Va <br/>
+            22079 <br />
+            P: <a href="tel:571.306.9151">571-306-9151</a><br/>
+            E: <a href="hgtariku@yahoo.com">hgtariku@yahoo.com</a>
+          </address>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Me</h3>
+        <form>
+           <label for="contact-name">Your Name</label>
+           <input type="text" id="contact-name" placeholder="Your Name" />
+      
+           <label for="contact-message">Message</label>
+           <textarea id="contact-message" placeholder="Message"></textarea>
+      
+           <button type="submit">Submit</button>
+          </form>
+      </div>
+      
+ </section>
+  <footer>
+    <h2>With Love, Helen Tariku ❤️</h2>
+  </footer>
   </body>
 </html>
+
