@@ -18,4 +18,4 @@ https://github.com/htariku/html-css-portfolio
 Helen Tariku
 
 # Screenshot
-Screen Shot 2021-11-26 at 9 29 45 AM
+<img width="1434" alt="Screen Shot 2021-12-02 at 6 46 28 PM" src="https://user-images.githubusercontent.com/94089824/144521228-23f1be24-d65a-4218-845c-44b7127e6d0b.png">
