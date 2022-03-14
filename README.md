@@ -14,8 +14,6 @@ https://htariku.github.io/html-css-portfolio/
 # GitHub Repo
 https://github.com/htariku/html-css-portfolio
 
-# Heroku Link 
-https://mcv-techblog-challenge.herokuapp.com/
 
 # Contribution
 Helen Tariku
